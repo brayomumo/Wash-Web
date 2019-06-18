@@ -1,0 +1,76 @@
+.hero-img{
+    background-image: url(../image/peter-broomfield-239413-unsplash.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+header {
+  background:none;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-around;
+}
+.nav{
+    text-align: right;
+    position: relative;
+    left: 700px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+  }
+nav {
+  float: right;
+  position: fixed;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color:white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}#home-img{
+   /* background-image: url(../image/peter-broomfield-239413-unsplash.jpg);*/
+   background-col
+}
