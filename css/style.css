@@ -1,0 +1,15 @@
+.van,.pick-up,.car,.minivan{
+  text-align: center;
+}
+.van:hover,.pick-up:hover,.car:hover,.minivan:hover{
+  background-color: #ADD8E6;
+}
+.deluxe,.premium,.platinum{
+  text-align: center;
+  border: 0.5px solid black;
+  width: 370px;
+  height: 350px;
+}
+ul{
+  list-style-type: none;
+}
