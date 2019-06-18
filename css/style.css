@@ -15,3 +15,10 @@
 ul{
   list-style-type: none;
 }
+.platinum{
+  color: blue;
+  display: none;
+}
+.rowOne{
+  padding: 5px;
+}
