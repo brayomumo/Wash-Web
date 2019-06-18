@@ -19,11 +19,22 @@ ul {
   list-style-type: none;
 }
 
-.deluxe, .premium, .platinum, .gold{
+.deluxe {
   color: blue;
   display: none;
 }
 
-.rowOne {
-  padding: 5px;
+.premium {
+  color: red;
+  display: none;
+}
+
+.platinum {
+  color: yellow;
+  display: none;
+}
+
+.gold {
+  color: green;
+  display: none;
 }
