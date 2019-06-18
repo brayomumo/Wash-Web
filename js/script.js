@@ -1,26 +1,26 @@
 $(document).ready(function() {
   $("#car").click(function() {
-    $(".platinum").fadeIn();
+    $(".platinum").slideToggle("slow");
     $(".premium").hide();
     $(".gold").hide();
     $(".deluxe").hide();
   });
   $("#pick-up").click(function() {
-    $(".platinum").hide();
-    $(".premium").fadeIn();
+    $(".platinum").slideUp();
+    $(".premium").fadeIn("slow");
     $(".gold").hide();
     $(".deluxe").hide();
   });
   $("#minivan").click(function() {
     $(".platinum").hide();
     $(".premium").hide();
-    $(".gold").fadeIn();
+    $(".gold").slideToggle("slow");
     $(".deluxe").hide();
   });
   $("#van").click(function() {
     $(".platinum").hide();
     $(".premium").hide();
     $(".gold").hide();
-    $(".deluxe").fadeIn();
+    $(".deluxe").fadeToggle("slow");
   });
 });
