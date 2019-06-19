@@ -14,14 +14,14 @@ $(document).ready(function() {
     });
     $("#minivan").click(function() {
       $(".platinum").hide();
-      $(".premium").show();
-      $(".gold").fadeIn("slow");
+      $(".premium").fadeIn("slow");
+      $(".gold").hide();
       $(".deluxe").hide();
     });
     $("#van").click(function() {
       $(".platinum").hide();
       $(".premium").hide();
-      $(".gold").show();
-      $(".deluxe").fadeIn("slow");
+      $(".gold").fadeIn("slow");
+      $(".deluxe").hide();
     });
   })
