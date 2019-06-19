@@ -96,6 +96,16 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+#icons{
+  float: right;
+  padding: 1.5%;
+  position: absolute;
+  left:1700px;
+}
+
+#icons img{
+  padding: 0.8%
+}
 
 h1{
   text-align: center;
