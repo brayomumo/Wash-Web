@@ -1,3 +1,13 @@
+
+// bussiness logic
+function convertInputs(inputTime){
+    this.inputTime=inputTime;
+    this.convertedHours=Math.floor(inputTime/60);
+      this.convertedToMinutes = Math.floor(inputTime%60);
+    alert (  convertedHours + " HRS" + convertedToMinutes + " MINS");
+    }
+
+
 $(document).ready(function() {
     $("#car").click(function() {
       $(".platinum").fadeIn();
