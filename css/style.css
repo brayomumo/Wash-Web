@@ -18,30 +18,18 @@
     display: block;
 }
 .txt1{
-    font-size: 50px;
+    animation-delay: 1s;
+    animation-duration: 4s;
     font-family: 'Archivo Black', sans-serif;
-    margin-bottom: 10px;
-    animation: 3s 1;
+    font-size: 50px;
 }
 .txt2{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    animation-delay: 1s;
+    animation-duration: 4s;
 }
-@keyframes txt{
-    0%{
-        color: black;
-        margin-bottom: -60px;
-    }
-30%{
-    letter-spacing: 25px;
-    margin-bottom: -60px;
-}
-85%{
-    letter-spacing: 8px;
-    margin-bottom: -40px;
 
-}
-}
 header {
   background:none;
   font-family: 'Montserrat', sans-serif;
@@ -129,7 +117,10 @@ h1{
     font-size: 15px;
     color:darkgrey;
     text-align: left;
-    float: center;
+    position: absolute;
+    left: 35%;
+    
+ 
 }
 h2{
     color: black;
