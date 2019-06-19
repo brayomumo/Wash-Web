@@ -1,10 +1,12 @@
-.van,.pick-up,.car,.minivan{
+.van, .pick-up, .car, .minivan {
   text-align: center;
 }
-.van:hover,.pick-up:hover,.car:hover,.minivan:hover{
+
+.van:hover, .pick-up:hover, .car:hover, .minivan:hover {
   background-color: #ADD8E6;
 }
-.deluxe,.deluxe1,.deluxe2,.deluxe3,.premium,.premium1,.premium2,.premium3,.platinum,.platinum1,.platinum2,.platinum3{
+
+.deluxe, .premium, .platinum, .gold {
   text-align: center;
   border: 0.5px solid black;
   width: 370px;
@@ -12,6 +14,30 @@
   padding: 30px 20px;
   justify-content: space-around;
 }
-ul{
+
+ul {
   list-style-type: none;
+}
+.row
+{
+  
+}
+.deluxe {
+  color: blue;
+  display: none;
+}
+
+.premium {
+  color: red;
+  display: none;
+}
+
+.platinum {
+  color: yellow;
+  display: none;
+}
+
+.gold {
+  color: green;
+  display: none;
 }
