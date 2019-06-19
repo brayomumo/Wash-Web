@@ -158,9 +158,21 @@ h5{
   text-align: center;
   animation-delay: 2s;
   animation-duration: 2s;
-
 }
-/* booking page */
+.row img{
+ width:1700px;
+height: 200px;
+object-fit: cover;
+}
+.col-lg-3:hover .pic{
+  opacity: 0.8;
+}
+.view{
+  animation-delay: 2s;
+  animation-duration: 3s;
+}
+
+/* *************booking page ***************************/
 
 .top{
   background-image: url("../image/emile-guillemot-1198305-unsplash.jpg");
