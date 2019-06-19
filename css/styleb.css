@@ -1,0 +1,40 @@
+.van, .pick-up, .car, .minivan {
+    text-align: center;
+  }
+  
+  .van:hover, .pick-up:hover, .car:hover, .minivan:hover {
+    background-color: #ADD8E6;
+  }
+  
+  .deluxe, .premium, .platinum, .gold {
+    text-align: center;
+    border: 0.5px solid black;
+    width: 370px;
+    height: 350px;
+    padding: 30px 20px;
+    justify-content: space-around;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+   
+  .deluxe {
+    color: #36393a;
+    display: none;
+  }
+  
+  .premium {
+    color: #36393a;
+    display: none;
+  }
+  
+  .platinum {
+    color:  #36393a;
+    display: none;
+  }
+  
+  .gold {
+    color: #36393a;
+    display: none;
+  }
