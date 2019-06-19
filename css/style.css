@@ -20,21 +20,21 @@ ul {
 }
  
 .deluxe {
-  color: blue;
+  color: #36393a;
   display: none;
 }
 
 .premium {
-  color: red;
+  color: #36393a;
   display: none;
 }
 
 .platinum {
-  color: yellow;
+  color:  #36393a;
   display: none;
 }
 
 .gold {
-  color: green;
+  color: #36393a;
   display: none;
 }
