@@ -102,6 +102,7 @@ h1{
   font-family: 'Archivo Black', sans-serif;
   font-size: 70px;
   color: black;
+  animation-delay: 4s;
 }
 .about{
     text-align: center;
@@ -110,7 +111,8 @@ h1{
     color: darkgrey;
 }
 .car{
-    color: black;
+    color:rgb(34, 179, 228);
+    font-size: 24px;
 }
 .advantages{
     font-family: 'Quicksand', sans-serif;
@@ -123,11 +125,11 @@ h1{
  
 }
 h2{
-    color: black;
+    color: rgb(34, 179, 228);
     font-size: 25px;
 }
 h3{
-    color:black;
+    color:rgb(34, 179, 228);
     font-size: 25px;
 
 }
