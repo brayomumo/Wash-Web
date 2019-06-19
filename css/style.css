@@ -119,7 +119,8 @@ h1{
   font-family: 'Archivo Black', sans-serif;
   font-size: 70px;
   color: black;
-  animation-delay: 4s;
+  animation-delay: 2s;
+  animation-duration: 2s;
 }
 .about{
     text-align: center;
@@ -148,6 +149,15 @@ h1{
 h3{
     color:rgb(34, 179, 228);
     font-size: 25px;
+
+}
+h5{
+  font-size: 60px;
+  color: rgb(67, 158, 189);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  animation-delay: 2s;
+  animation-duration: 2s;
 
 }
 /* booking page */
