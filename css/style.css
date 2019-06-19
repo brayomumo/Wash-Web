@@ -161,16 +161,53 @@ h5{
 }
 .row img{
  width:1700px;
-height: 200px;
+height: 400px;
 object-fit: cover;
 }
 .col-lg-3:hover .pic{
   opacity: 0.8;
 }
 .view{
-  animation-delay: 2s;
-  animation-duration: 3s;
+  animation-delay: 25s;
+  animation-duration: 5s;
 }
+#hamilton{
+  background-color: lightgray;
+}
+h6{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  
+}
+.words{
+  font-size: 30px;
+  text-align: left;
+   font-family: 'Dancing Script', cursive;
+   color: #36393a;
+  
+}
+#name{
+  text-align: left;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+#ham{
+  object-fit: cover;
+  height: 400px;
+
+}
+.contacts{
+  background-color: black;
+  text-align: center;
+  color: beige;
+}
+.cont{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
 
 /* *************booking page ***************************/
 
