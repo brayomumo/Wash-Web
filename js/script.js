@@ -20,7 +20,7 @@ $(document).ready(function() {
       $(".deluxe").fadeIn("slow");
       $(".gold").hide();
       $(".premium").hide();
-      
+
     });
     $("#minivan").click(function() {
       $(".platinum").hide();
@@ -35,3 +35,38 @@ $(document).ready(function() {
       $(".deluxe").hide();
     });
   })
+
+  //contact
+  function myFunction() {
+  var fname = document.getElementById("fname").value;
+  var sname = document.getElementById("sname").value;
+  var email = document.getElementById("email").value.indexOf("@");
+  var phone = document.getElementById("phon").value;
+  var make = document.getElementById("mak").value;
+  var model = document.getElementById("model").value;
+  var book = document.getElementById("book").value;
+
+  var message = document.getElementById("message").value;
+
+  if(fname=="" && sname==""){
+    alert("Enter your full name");
+  }
+  if (email == -1) {
+   alert("Not a valid e-mail!");
+ }
+ if (book == "") {
+  alert("Not a valid datetime!");
+}
+ if(phone===""){
+   alert("Enter phone number");
+ }
+ if (make == "" && model=="") {
+  alert("Enter value!");
+}
+ if(message===""){
+   alert("Enter message");
+ }
+if( fname!="" && sname!="" && email>-1 && message!=="" && phon==="" && make=="" && model==""){
+   alert( fname +"we have received your message. Thank you for reaching out to us.");
+ }
+}

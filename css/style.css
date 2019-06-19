@@ -170,15 +170,15 @@ h3{
   text-align: center;
   border: 0.5px solid black;
   width: 370px;
-  height: 350px;
-  padding: 30px 20px;
-  justify-content: space-around;
+  height: 400px;
+  padding: 30px;
+
 }
 
 ul {
   list-style-type: none;
 }
- 
+
 .deluxe {
   color: #36393a;
   display: none;
@@ -197,4 +197,47 @@ ul {
 .gold {
   color: #36393a;
   display: none;
+}
+.select{
+  border-radius: 25px;
+  width: 100px;
+  background: none;
+  border: 0.5px solid blue;
+  color: blue;
+}
+.total-price,.duration{
+  border: 0.5px solid blue;
+  padding: 20px;
+  height: 100px;
+}
+#fname,#email{
+  width: 570px;
+  padding-bottom: 30px;
+}
+#sname,#phon{
+  width: 540px;
+  padding-bottom: 30px;
+}
+#mak,#model{
+  width: 398.5px;
+  padding-bottom: 31px;
+}
+#book{
+  width: 350px;
+  padding-bottom: 30px;
+}
+#message{
+  width: 100%;
+  padding-bottom: 30px;
+}
+.booking{
+  border-radius: 25px;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 600px;
+
+}
+.call p{
+  text-align: center;
 }
