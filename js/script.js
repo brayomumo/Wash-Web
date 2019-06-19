@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
   $("#pick-up").click(function() {
     $(".platinum").slideUp();
-    $(".premium").fadeIn("slow");
+    $(".premi.rowum").fadeIn("slow");
     $(".gold").hide();
     $(".deluxe").hide();
   });
@@ -20,7 +20,5 @@ $(document).ready(function() {
   $("#van").click(function() {
     $(".platinum").hide();
     $(".premium").hide();
-    $(".gold").hide();
-    $(".deluxe").fadeToggle("slow");
-  });
-});
+  })
+})
