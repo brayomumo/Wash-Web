@@ -1,8 +1,16 @@
+html {
+  scroll-behavior: smooth;
+ }
 .hero-img{
     background-image: url(../image/slider_02.jpg);
-    background-size: cover;
-    height: 700px;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover; */
+     height: 700px;
+    //*width: 100%; */
+}
+.navbar ul{
+  color: blue;
 }
 .hero-txt{
     text-align: center;
@@ -35,10 +43,9 @@ header {
   font-family: 'Montserrat', sans-serif;
   justify-content: space-around;
 }
-.nav{
-    text-align: right;
-    position: relative;
-    left: 700px;
+.navbar{
+  position: fixed;
+  color: blue;
 }
 
 header::after {
@@ -97,10 +104,10 @@ nav a:hover::before {
   width: 100%;
 }
 #icons{
-  float: right;
+  float: left;
   padding: 1.5%;
-  position: absolute;
-  left:1700px;
+  position: relative;
+  /* left:1700px; */
 }
 
 #icons img{
@@ -120,7 +127,7 @@ h1{
     font-size: 15px;
     color: darkgrey;
 }
-.car{
+.cartext{
     color:rgb(34, 179, 228);
     font-size: 24px;
 }
@@ -134,7 +141,7 @@ h1{
     
  
 }
-h2{
+.h2{
     color: rgb(34, 179, 228);
     font-size: 25px;
 }
@@ -142,4 +149,52 @@ h3{
     color:rgb(34, 179, 228);
     font-size: 25px;
 
+}
+/* booking page */
+
+.top{
+  background-image: url("../image/emile-guillemot-1198305-unsplash.jpg");
+  background-size: 100%;
+  opacity: 0.5;
+  height: 500px;
+}
+.van, .pick-up, .car1, .minivan {
+  text-align: center;
+}
+
+.van:hover, .pick-up:hover, .car1:hover, .minivan:hover {
+  background-color: #ADD8E6;
+}
+
+.deluxe, .premium, .platinum, .gold {
+  text-align: center;
+  border: 0.5px solid black;
+  width: 370px;
+  height: 350px;
+  padding: 30px 20px;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+ 
+.deluxe {
+  color: #36393a;
+  display: none;
+}
+
+.premium {
+  color: #36393a;
+  display: none;
+}
+
+.platinum {
+  color:  #36393a;
+  display: none;
+}
+
+.gold {
+  color: #36393a;
+  display: none;
 }
