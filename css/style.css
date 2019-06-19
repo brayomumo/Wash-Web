@@ -1,8 +1,168 @@
-.van, .pick-up, .car, .minivan {
+html {
+  scroll-behavior: smooth;
+ }
+.hero-img{
+    background-image: url(../image/slider_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover; */
+     height: 700px;
+    //*width: 100%; */
+}
+.navbar ul{
+  color: blue;
+}
+.hero-txt{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50% -50%);
+    width: 100%;
+}
+.hero-txt span{
+    color: white;
+    text-transform: uppercase;
+    display: block;
+}
+.txt1{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+}
+.txt2{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    animation-delay: 1s;
+    animation-duration: 4s;
+}
+
+header {
+  background:none;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-around;
+}
+.navbar{
+  position: fixed;
+  color: blue;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+  }
+nav {
+  float: right;
+  position: fixed;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color:white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+#icons{
+  float: left;
+  padding: 1.5%;
+  position: relative;
+  /* left:1700px; */
+}
+
+#icons img{
+  padding: 0.8%
+}
+
+h1{
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 70px;
+  color: black;
+  animation-delay: 4s;
+}
+.about{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: darkgrey;
+}
+.cartext{
+    color:rgb(34, 179, 228);
+    font-size: 24px;
+}
+.advantages{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color:darkgrey;
+    text-align: left;
+    position: absolute;
+    left: 35%;
+    
+ 
+}
+.h2{
+    color: rgb(34, 179, 228);
+    font-size: 25px;
+}
+h3{
+    color:rgb(34, 179, 228);
+    font-size: 25px;
+
+}
+/* booking page */
+
+.top{
+  background-image: url("../image/emile-guillemot-1198305-unsplash.jpg");
+  background-size: 100%;
+  opacity: 0.5;
+  height: 500px;
+}
+.van, .pick-up, .car1, .minivan {
   text-align: center;
 }
 
-.van:hover, .pick-up:hover, .car:hover, .minivan:hover {
+.van:hover, .pick-up:hover, .car1:hover, .minivan:hover {
   background-color: #ADD8E6;
 }
 
