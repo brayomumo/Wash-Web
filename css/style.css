@@ -165,7 +165,7 @@ height: 400px;
 object-fit: cover;
 }
 .col-lg-3:hover .pic{
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .view{
   animation-delay: 25s;
@@ -325,6 +325,7 @@ ul {
   left: 25%;
   display: none;
   font-weight: bold;
+  color: white;
 }
 .image-txt1{
   position: absolute;
@@ -333,4 +334,5 @@ ul {
   left: 15%;
   display: none;
   font-weight: bold;
+  color: white;
 }
