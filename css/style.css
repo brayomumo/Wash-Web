@@ -1,8 +1,246 @@
-.van, .pick-up, .car, .minivan {
+html {
+  scroll-behavior: smooth;
+ }
+.hero-img{
+    background-image: url(../image/slider_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover; */
+     height: 700px;
+    /*width: 100%; */
+}
+.navbar ul{
+  color: blue;
+}
+.hero-txt{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50% -50%);
+    width: 100%;
+}
+.hero-txt span{
+    color: white;
+    text-transform: uppercase;
+    display: block;
+}
+.txt1{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+}
+.txt2{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    animation-delay: 1s;
+    animation-duration: 4s;
+}
+
+header {
+  background:none;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-around;
+}
+.navbar{
+  position: fixed;
+  color: blue;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+  }
+nav {
+  float: right;
+  position: fixed;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color:white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+#icons{
+  float: left;
+  padding: 1.5%;
+  position: relative;
+  /* left:1700px; */
+}
+
+#icons img{
+  padding: 0.8%
+}
+
+h1{
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 70px;
+  color: black;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+.about{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: darkgrey;
+}
+.cartext{
+    color:rgb(34, 179, 228);
+    font-size: 24px;
+}
+.advantages{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color:darkgrey;
+    text-align: left;
+    position: absolute;
+    left: 35%;
+    
+ 
+}
+.h2{
+    color: rgb(34, 179, 228);
+    font-size: 25px;
+}
+h3{
+    color:rgb(34, 179, 228);
+    font-size: 25px;
+
+}
+h5{
+  font-size: 60px;
+  color: rgb(67, 158, 189);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+.col-lg-3 img{
+ width:1700px;
+height: 400px;
+object-fit: cover;
+}
+.col-lg-3:hover .pic{
+  opacity: 0.8;
+}
+.view{
+  animation-delay: 25s;
+  animation-duration: 5s;
+}
+#hamilton{
+  background-color: lightgray;
+}
+h6{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  
+}
+.words{
+  font-size: 30px;
+  text-align: left;
+   font-family: 'Dancing Script', cursive;
+   color: #36393a;
+  
+}
+#name{
+  text-align: left;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+#ham{
+  object-fit: cover;
+  height: 400px;
+
+}
+#contacts{
+  background-color: black;
+  text-align: center;
+  color: beige;
+  font-family: 'Poppins', sans-serif;
+}
+.cont{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+#place{
+  height:50px;
+  width: 50px;
+
+}
+#phone{
+  height:50px;
+  width: 50px;
+}
+.address{
+  font-size: 20px;
+  color: #36393a;
+}
+#call{
+  font-size: 20px;
+  color: #36393a;
+}
+
+
+
+/* *************booking page ***************************/
+
+.top{
+  background-image: url("../image/emile-guillemot-1198305-unsplash.jpg");
+  background-size: 100%;
+  opacity: 0.5;
+  height: 500px;
+}
+.van, .pick-up, .car1, .minivan {
   text-align: center;
 }
 
-.van:hover, .pick-up:hover, .car:hover, .minivan:hover {
+.van:hover, .pick-up:hover, .car1:hover, .minivan:hover {
   background-color: #ADD8E6;
 }
 
@@ -10,15 +248,15 @@
   text-align: center;
   border: 0.5px solid black;
   width: 370px;
-  height: 350px;
-  padding: 30px 20px;
-  justify-content: space-around;
+  height: 400px;
+  padding: 30px;
+
 }
 
 ul {
   list-style-type: none;
 }
- 
+
 .deluxe {
   color: #36393a;
   display: none;
@@ -37,4 +275,47 @@ ul {
 .gold {
   color: #36393a;
   display: none;
+}
+.select{
+  border-radius: 25px;
+  width: 100px;
+  background: none;
+  border: 0.5px solid blue;
+  color: blue;
+}
+.total-price,.duration{
+  border: 0.5px solid blue;
+  padding: 20px;
+  height: 100px;
+}
+#fname,#email{
+  width: 570px;
+  padding-bottom: 30px;
+}
+#sname,#phon{
+  width: 540px;
+  padding-bottom: 30px;
+}
+#mak,#model{
+  width: 398.5px;
+  padding-bottom: 31px;
+}
+#book{
+  width: 350px;
+  padding-bottom: 30px;
+}
+#message{
+  width: 100%;
+  padding-bottom: 30px;
+}
+.booking{
+  border-radius: 25px;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 600px;
+
+}
+.call p{
+  text-align: center;
 }
