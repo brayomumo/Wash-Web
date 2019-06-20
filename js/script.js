@@ -9,6 +9,50 @@ function convertInputs(inputTime){
 
 
 $(document).ready(function() {
+
+    var indexx = $('.forClass')
+    
+    // console.log(indexx, indexColumn)
+    for (var i = 0; i < indexx.length; i++) {
+        $('#servButton1').click(function () {
+            var pprice = $('#price1')[0].innerText
+            var ttime = $('#time1')[0].innerText
+
+            $('.pOutput').prepend(pprice)
+            $(".tOutput").prepend(ttime)
+            console.log(pprice, ttime)
+        })
+        $('#servButton2').click(function () {
+            var ppprice = $('#price2')[0].innerText
+            var tttime = $('#time2')[0].innerText
+            $('.output').removeClass("pOutput")
+            $('.output').addClass("pOutput")
+            $('.pOutput').append(ppprice)
+            // $(".tOutput").append(tttime)
+            console.log(ppprice, tttime)
+        })
+        $('#servButton3').click(function () {
+            var pprice = $('#price3')[0].innerText
+            var ttime = $('#time3')[0].innerText
+            $('.pOutput').prepend(pprice)
+            $(".tOutput").prepend(ttime)
+            console.log(pprice, ttime)
+        })
+
+    }
+
+
+
+    $('.image-gallery').hover( function() {
+        $(this).find('.image-txt').fadeIn(300);
+    }, function() {
+        $(this).find('.image-txt').fadeOut(100);
+    });
+    $('.image-gallery').hover( function() {
+        $(this).find('.image-txt1').fadeIn(300);
+    }, function() {
+        $(this).find('.image-txt1').fadeOut(100);
+    });
     $("#car").click(function() {
       $(".platinum").fadeIn();
       $(".premium").hide();
@@ -38,11 +82,11 @@ $(document).ready(function() {
 
   //contact
   function myFunction() {
-  var fname = document.getElementById("fname").value;
-  var sname = document.getElementById("sname").value;
-  var email = document.getElementById("email").value.indexOf("@");
-  var phone = document.getElementById("phon").value;
-  var make = document.getElementById("mak").value;
+  var fname = $("#fname").value;
+  var sname = $("#sname").value;
+  var email = $("#email").value.indexOf("@");
+  var phone = $("#phon").value;
+  var make = $("#mak").value;
   var model = document.getElementById("model").value;
   var book = document.getElementById("book").value;
 
@@ -77,22 +121,4 @@ if( fname!="" && sname!="" && email>-1 && message!="" && phon!="" && make!="" &&
  }
 }
 
-//gallery hover
-$(document).ready( function() {
-
-    $('.image-gallery').hover( function() {
-        $(this).find('.image-txt').fadeIn(300);
-    }, function() {
-        $(this).find('.image-txt').fadeOut(100);
-    });
-});
-
-
-$(document).ready( function() {
-
-    $('.image-gallery').hover( function() {
-        $(this).find('.image-txt1').fadeIn(300);
-    }, function() {
-        $(this).find('.image-txt1').fadeOut(100);
-    });
-});
+//gallery hover    
