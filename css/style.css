@@ -104,14 +104,7 @@ nav a:hover::before {
   width: 100%;
 }
 #icons{
-  float: left;
-  padding: 1.5%;
-  position: relative;
-  /* left:1700px; */
-}
-
-#icons img{
-  padding: 0.8%
+  margin-left: 20px;
 }
 
 h1{
@@ -200,8 +193,9 @@ h6{
 #contacts{
   background-color: black;
   text-align: center;
-  color: beige;
+  color:white;
   font-family: 'Poppins', sans-serif;
+  
 }
 .cont{
   font-family: 'Poppins', sans-serif;
@@ -217,13 +211,18 @@ h6{
   height:50px;
   width: 50px;
 }
-.address{
+#address{
   font-size: 20px;
   color: #36393a;
 }
 #call{
   font-size: 20px;
   color: #36393a;
+}
+#copy{
+  color: #36393a;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 
