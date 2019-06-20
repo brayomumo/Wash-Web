@@ -121,6 +121,9 @@ h1{
     position: absolute;
     left: 35%;
 }
+.advantages ul{
+  list-style-type: disc;
+}
 .h2{
     color: rgb(34, 179, 228);
     font-size: 25px;
