@@ -107,7 +107,7 @@ h1{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    color: darkgrey;
+    color: black;
 }
 .cartext{
     color:rgb(34, 179, 228);
@@ -116,7 +116,7 @@ h1{
 .advantages{
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    color:darkgrey;
+    color:black;
     text-align: left;
     position: absolute;
     left: 35%;
