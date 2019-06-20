@@ -48,25 +48,31 @@ $(document).ready(function() {
 
   var message = document.getElementById("message").value;
 
-  if(fname=="" && sname==""){
-    alert("Enter your full name");
+  if(fname=="" ){
+    alert("Enter your first name!");
+  }
+  if(sname==""){
+    alert("Enter your second name!");
   }
   if (email == -1) {
    alert("Not a valid e-mail!");
  }
- if (book == "") {
-  alert("Not a valid datetime!");
-}
  if(phone===""){
    alert("Enter phone number");
  }
- if (make == "" && model=="") {
-  alert("Enter value!");
+ if (make == "" ) {
+  alert("Enter make of your vehicle!");
+}
+if( model==""){
+  alert("Enter the model of your vehicle!");
+}
+ if (book == "") {
+  alert("Not a valid datetime!");
 }
  if(message===""){
    alert("Enter message");
  }
-if( fname!="" && sname!="" && email>-1 && message!=="" && phon==="" && make=="" && model==""){
-   alert( fname +"we have received your message. Thank you for reaching out to us.");
+if( fname!="" && sname!="" && email>-1 && message!="" && phon!="" && make!="" && model!="" && book!=""){
+   alert( fname  +  sname + " we have received your message.Your booking of  "  + " " + book  + " is scheduled.");
  }
 }
