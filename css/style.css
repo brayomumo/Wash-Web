@@ -159,7 +159,7 @@ h5{
   animation-delay: 2s;
   animation-duration: 2s;
 }
-.row img{
+.col-lg-3 img{
  width:1700px;
 height: 400px;
 object-fit: cover;
@@ -197,16 +197,35 @@ h6{
   height: 400px;
 
 }
-.contacts{
+#contacts{
   background-color: black;
   text-align: center;
   color: beige;
+  font-family: 'Poppins', sans-serif;
 }
 .cont{
   font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 60px;
 }
+#place{
+  height:50px;
+  width: 50px;
+
+}
+#phone{
+  height:50px;
+  width: 50px;
+}
+.address{
+  font-size: 20px;
+  color: #36393a;
+}
+#call{
+  font-size: 20px;
+  color: #36393a;
+}
+
 
 
 /* *************booking page ***************************/
