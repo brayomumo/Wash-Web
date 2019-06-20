@@ -11,6 +11,7 @@ function convertInputs(inputTime){
 $(document).ready(function() {
 
     var indexx = $('.forClass')
+    var totalPrice = 0;
     
     // console.log(indexx, indexColumn)
     for (var i = 0; i < indexx.length; i++) {
@@ -18,15 +19,14 @@ $(document).ready(function() {
             var pprice = $('#price1')[0].innerText
             var ttime = $('#time1')[0].innerText
 
-            $('.pOutput').prepend(pprice)
-            $(".tOutput").prepend(ttime)
+            $('.pOutput').append(pprice)
+            $(".tOutput").append(ttime)
             console.log(pprice, ttime)
         })
         $('#servButton2').click(function () {
             var ppprice = $('#price2')[0].innerText
             var tttime = $('#time2')[0].innerText
-            $('.output').removeClass("pOutput")
-            $('.output').addClass("pOutput")
+            $('.tOutput').append(tttime)
             $('.pOutput').append(ppprice)
             // $(".tOutput").append(tttime)
             console.log(ppprice, tttime)
@@ -34,8 +34,8 @@ $(document).ready(function() {
         $('#servButton3').click(function () {
             var pprice = $('#price3')[0].innerText
             var ttime = $('#time3')[0].innerText
-            $('.pOutput').prepend(pprice)
-            $(".tOutput").prepend(ttime)
+            $('.pOutput').append(pprice)
+            $(".tOutput").append(ttime)
             console.log(pprice, ttime)
         })
 
