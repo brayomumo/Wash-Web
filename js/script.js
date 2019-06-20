@@ -76,3 +76,23 @@ if( fname!="" && sname!="" && email>-1 && message!="" && phon!="" && make!="" &&
    alert( fname  +  sname + " we have received your message.Your booking of  "  + " " + book  + " is scheduled.");
  }
 }
+
+//gallery hover
+$(document).ready( function() {
+
+    $('.image-gallery').hover( function() {
+        $(this).find('.image-txt').fadeIn(300);
+    }, function() {
+        $(this).find('.image-txt').fadeOut(100);
+    });
+});
+
+
+$(document).ready( function() {
+
+    $('.image-gallery').hover( function() {
+        $(this).find('.image-txt1').fadeIn(300);
+    }, function() {
+        $(this).find('.image-txt1').fadeOut(100);
+    });
+});

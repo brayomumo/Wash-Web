@@ -178,14 +178,14 @@ h6{
   font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 40px;
-  
+
 }
 .words{
   font-size: 30px;
   text-align: left;
    font-family: 'Dancing Script', cursive;
    color: #36393a;
-  
+
 }
 #name{
   text-align: left;
@@ -317,4 +317,20 @@ ul {
 }
 .call p{
   text-align: center;
+}
+.image-txt{
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 25%;
+  display: none;
+  font-weight: bold;
+}
+.image-txt1{
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 15%;
+  display: none;
+  font-weight: bold;
 }
