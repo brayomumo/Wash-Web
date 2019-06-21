@@ -8,7 +8,8 @@
 ## Description
 * Drivers log onto our page and to go the booking section and select the type of car they need washed.
 ![Screenshot](./images/booking.png) 
-* The type of car selected comes with a highlight of the services that will be performed by the car wash![Screenshot](./Desktop/wash-packages.png) 
+* The type of car selected comes with a highlight of the services that will be performed by the car wash!
+[Screenshot](./images/wash-packages.png) 
 * The web page has more options that the consumer can choose from
 [Screenshot](./images/services.png)
 * The customer is also expected to fill out a form 'with his or her details.
