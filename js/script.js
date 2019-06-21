@@ -18,7 +18,6 @@ $(document).ready(function() {
         $('#servButton1').click(function () {
             var pprice = $('#price1')[0].innerText
             var ttime = $('#time1')[0].innerText
-
             $('.pOutput').append(pprice)
             $(".tOutput").append(ttime)
             console.log(pprice, ttime)
